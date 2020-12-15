@@ -132,6 +132,24 @@ main .container {
   margin: 0 auto;
 }
 
+.buy {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+  
+  .content {
+    display: block;
+    background: #fff;
+    margin: 2.5%;
+    width: 95%;
+    height: 95%;
+    padding: auto;
+    border-radius: 2.5%;
+  }
+}
+
 /* Gallery */
 
 @include keyframes(slide_animation) {
@@ -286,12 +304,27 @@ main .container {
         display: flex;
         flex-direction: row;
 
+      
+
         .button {
           width: 47.5%;
           @include button_style($button_color)
         }
 
         .price {
+          color: white;
+          user-select: none;
+          background: $button_color;
+          outline: none;
+          text-align: center;
+          height: 45px;
+          width: 47.5%;
+          transition: $transition_param;
+          margin-right: 0;
+          margin-left: auto;
+        }
+
+        #buy_button {
           color: white;
           user-select: none;
           background: $button_color;
