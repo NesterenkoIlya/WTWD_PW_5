@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cd57bfa-690e-4bf8-a09d-a039b2057487" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_variables1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m28kMuXhX2rdkY7YDl2884QfVr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\WTWD_5\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cd57bfa-690e-4bf8-a09d-a039b2057487" name="Default Changelist" comment="" />
+      <created>1608680467726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608680467726</updated>
+      <workItem from="1608680469173" duration="1352000" />
+      <workItem from="1608818637282" duration="289000" />
+      <workItem from="1608881255349" duration="591000" />
+      <workItem from="1608890188460" duration="24565000" />
+      <workItem from="1608992956475" duration="9833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="38" key="#Plugins" timestamp="1608895721627">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="272" y="38" key="#Plugins/1360.318.1366.738/0.30.1360.738@0.30.1360.738" timestamp="1608895721627" />
+    <state x="451" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608906941920">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="451" y="187" key="#com.intellij.fileTypes.FileTypeChooser/1360.318.1366.738/0.30.1360.738@0.30.1360.738" timestamp="1608906941920" />
+    <state x="1604" y="318" width="1138" height="701" maximized="true" key="dock-window-1" timestamp="1608994114170">
+      <screen x="1360" y="318" width="1366" height="738" />
+    </state>
+    <state x="1604" y="318" width="1138" height="701" maximized="true" key="dock-window-1/1360.318.1366.738/0.30.1360.738@0.30.1360.738" timestamp="1608994114170" />
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608895644327">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/1360.318.1366.738/0.30.1360.738@0.30.1360.738" timestamp="1608895644327" />
+  </component>
+</project>

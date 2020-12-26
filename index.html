@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Shoes Shop</title>
-    <link rel="stylesheet" href="css/_main.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/nike.svg">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="wrapper">
+        <div class="wrapper" id="nav">
             <div class="header_logo">
                 <img src="img/nike.svg" alt="logo">
             </div>
@@ -20,19 +20,14 @@
                     <a href="#about_us">ABOUT US</a>
                     <a href="#our_products">OUR PRODUCTS</a>
                     <a href="#testimonials">TESTIMONIALS</a>
-                    <a href="#" id="cart" class="icon">&#128722;</a>
+                    <a href="#nav" id="cart" class="icon">&#128722;</a>
                 </div>
             </nav>
         </div>
     </header>
     <main>
-        <div class="buy" id="buy">
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, beatae.</p>
-            </div>
-        </div>
         <div class="container">
-            <div class="slider-frame">
+            <div class="slider-frame" id="slider-frame">
                 <div class="slide-images">
                     <div class="img-container">
                         <img src="img/Air%20Max%20Plus.jpg">
@@ -48,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about_us" id="about_us">
+            <div class="about_us _anim_item" id="about_us">
                 <h1>ABOUT US</h1>
                 <div class="wrapper">
                     <div class="about_left">
@@ -69,18 +64,18 @@
             </div>
             <div class="our_products" id="our_products">
                 <div class="shoes">
-                    <div class="shoes_img">
+                    <div class="shoes_img _anim_item left">
                         <img src="img/Air_Max_Plus.png" alt="Air Max Plus">
                     </div>
                     <div class="shoes_text">
                         <h2>Air Max Plus</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore est iusto quibusdam, quisquam repudiandae soluta. Delectus eius minus necessitatibus pariatur sit, voluptas. Accusantium, consequuntur corporis culpa cumque dicta dignissimos harum obcaecati perferendis perspiciatis quam, quo quod repudiandae sapiente. Exercitationem, incidunt!</p>
                         <div class="price_buy">
-                            <a href="#" class="button" id="buy_button">
+                            <a href="#popup" class="button popup_link">
                                 <h3>Add to cart</h3>
                             </a>
                             <div class="price">
-                                <h3>499</h3>
+                                <h3>499$</h3>
                             </div>
                         </div>
                     </div>
@@ -90,31 +85,31 @@
                         <h2>Adapt BD</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore est iusto quibusdam, quisquam repudiandae soluta. Delectus eius minus necessitatibus pariatur sit, voluptas. Accusantium, consequuntur corporis culpa cumque dicta dignissimos harum obcaecati perferendis perspiciatis quam, quo quod repudiandae sapiente. Exercitationem, incidunt!</p>
                         <div class="price_buy">
-                            <a href="#" class="button">
+                            <a href="#popup" class="button popup_link">
                                 <h3>Add to cart</h3>
                             </a>
                             <div class="price">
-                                <h3>499</h3>
+                                <h3>499$</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="shoes_img">
+                    <div class="shoes_img _anim_item right">
                         <img src="img/Adapt_BD.png" alt="Air Max Plus">
                     </div>
                 </div>
                 <div class="shoes">
-                    <div class="shoes_img">
+                    <div class="shoes_img _anim_item left">
                         <img src="img/Shox_Gravity.png" alt="Air Max Plus">
                     </div>
                     <div class="shoes_text">
                         <h2>Shox Gravity</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore est iusto quibusdam, quisquam repudiandae soluta. Delectus eius minus necessitatibus pariatur sit, voluptas. Accusantium, consequuntur corporis culpa cumque dicta dignissimos harum obcaecati perferendis perspiciatis quam, quo quod repudiandae sapiente. Exercitationem, incidunt!</p>
                         <div class="price_buy">
-                            <a href="#" class="button">
+                            <a href="#popup" class="button popup_link">
                                 <h3>Add to cart</h3>
                             </a>
                             <div class="price">
-                                <h3>499</h3>
+                                <h3>499$</h3>
                             </div>
                         </div>
                     </div>
@@ -124,15 +119,15 @@
                         <h2>Space Hippie</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore est iusto quibusdam, quisquam repudiandae soluta. Delectus eius minus necessitatibus pariatur sit, voluptas. Accusantium, consequuntur corporis culpa cumque dicta dignissimos harum obcaecati perferendis perspiciatis quam, quo quod repudiandae sapiente. Exercitationem, incidunt!</p>
                         <div class="price_buy">
-                            <a href="#" class="button">
+                            <a href="#popup" class="button popup_link">
                                 <h3>Add to cart</h3>
                             </a>
                             <div class="price">
-                                <h3>499</h3>
+                                <h3>499$</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="shoes_img">
+                    <div class="shoes_img _anim_item right">
                         <img src="img/Space%20Hippie.png" alt="Air Max Plus">
                     </div>
                 </div>
@@ -140,7 +135,7 @@
             <div class="testimonials" id="testimonials">
                 <h1>TESTIMONIALS</h1>
                 <div class="wrapper">
-                    <div class="testimonial">
+                    <div class="testimonial _anim_item left">
                         <div class="img">
                             <img src="img/test_1.png" alt="test_1">
                         </div>
@@ -151,7 +146,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="testimonial">
+                    <div class="testimonial _anim_item right">
                         <div class="text">
                             <p class="name">Nicole Adams</p>
                             <p>
@@ -162,7 +157,7 @@
                             <img src="img/test_2.png" alt="">
                         </div>
                     </div>
-                    <div class="testimonial">
+                    <div class="testimonial _anim_item left">
                         <div class="img">
                             <img src="img/test_3.png" alt="">
                         </div>
@@ -175,112 +170,12 @@
                     </div>
                 </div>
             </div>
-            <div class="forms">
-                <h1>FORMS</h1>
-                <div class="wrapper">
-                    <form>
-                        <fieldset>
-                            <legend>Register</legend>
-                            <p><label for="name">Name <em>* </em></label><input type="text" id="name"></p>
-                            <p><label for="surname">Surname <em>* </em></label><input type="text" id="surname"></p>
-                            <p><label for="email">E-mail </label><input type="email" id="email"></p>
-                            <div class="radio">
-                                <p>Sex</p>
-                                <label>
-                                    <input type="radio" name="sex" value="Men"> Men
-                                </label>
-                                <label>
-                                    <input type="radio" name="sex" value="Women"> Women
-                                </label>
-                            </div>
-                            <div class="country">
-                                <label for="country">Country</label>
-                                <select name="country">
-                                    <option>Select Country</option>
-                                    <option value="Ukraine">Ukraine</option>
-                                    <option value="USA">USA</option>
-                                    <option value="England">England</option>
-                                    <option value="Russia">Russia</option>
-                                    <option value="Canada">Canada</option>
-                                    <option value="Poland">Poland</option>
-                                    <option value="Japan">Japan</option>
-                                </select>
-                            </div>
-                            <p><input type="submit" value="Register"></p>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Help Us</legend>
-                            <label for="Suggestions">Suggestions<textarea name="textarea" class="textarea-field"></textarea></label>
-                            <label for="file"><br>Or send file with your suggestions<br>
-                                <input type="file">
-                            </label>
-                            <p><input type="submit" value="Send"></p>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="text_block">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi blanditiis cum harum hic maiores
-                    molestiae quam quis, quisquam soluta. Accusamus beatae cupiditate ducimus id laudantium minima
-                    officiis provident quo.
-                    Consequatur facere hic, iusto magni minus nulla voluptatem! Beatae cum, ea eius esse, modi
-                    mollitia, nihil nisi nobis non possimus rem sapiente vel vero. Beatae expedita laboriosam natus
-                    nesciunt possimus!
-                    Asperiores delectus iure, nam porro quas recusandae. Assumenda consequuntur debitis deserunt
-                    doloremque, ea eaque excepturi fuga, id itaque magnam minima nemo pariatur perferendis possimus quas
-                    quia quis quo ratione vero?
-                    Aliquam esse laborum veniam? Asperiores, culpa, dicta? Adipisci culpa cumque dolor dolorum facere
-                    incidunt ipsa, ipsum labore neque nesciunt praesentium quae quis soluta totam voluptas. Ducimus
-                    quasi quibusdam repellendus voluptatum.
-                    Eos, incidunt unde! Dolorem iure laudantium voluptate. Consequatur dolorem earum enim libero
-                    officiis! Animi cumque ea eius fuga hic id inventore ipsa, iste perferendis placeat quae repellat
-                    sit soluta sunt.
-                    Accusamus ex quos sunt. Deserunt distinctio enim laudantium placeat quaerat quisquam reiciendis
-                    ullam. Ab, accusantium excepturi expedita iure praesentium quaerat quisquam quos repellat sunt
-                    suscipit temporibus tenetur veritatis vero voluptates?
-                    Consectetur cum deserunt dignissimos distinctio dolor doloremque explicabo fugiat fugit illo, iste
-                    maiores minus nam natus nobis non nulla, odio optio possimus provident quas quo quod repellendus
-                    sequi unde velit?
-                    A aliquam autem beatae dolorum earum facere minus numquam odit officia optio porro quae quasi
-                    ratione, recusandae, totam ut voluptatem. Accusantium architecto distinctio est nesciunt pariatur
-                    qui quia repudiandae similique?
-                    Debitis id ipsam iure, labore recusandae suscipit vero voluptas. Ab aspernatur dicta eius, esse ex
-                    fugit id ipsam minus modi molestiae quod recusandae. Commodi cupiditate, nobis? Aliquam dolorem est
-                    molestiae.
-                    Accusamus consectetur nisi repellat. Commodi consectetur consequuntur ducimus enim eos est,
-                    incidunt ipsam iste labore laborum mollitia, nam neque nihil officiis quo voluptatem voluptatum!
-                    Aspernatur cum praesentium provident similique ullam.
-                    Architecto commodi consequatur dolorem earum eligendi expedita explicabo fugit id ipsam labore
-                    laboriosam molestias mollitia nam natus numquam officia omnis, quibusdam reiciendis rem repellat
-                    repellendus reprehenderit rerum sit soluta sunt.
-                    A accusamus accusantium, alias architecto cum dolorem earum eum itaque laborum libero magnam modi
-                    necessitatibus nihil, placeat quaerat quisquam quod repudiandae sint tempore temporibus! Atque
-                    deserunt dignissimos nemo quibusdam repellendus.
-                    Inventore iste labore modi nesciunt perferendis qui, quibusdam voluptates voluptatibus. Alias aut
-                    commodi cumque cupiditate fugit, in minus, nesciunt quae quaerat reprehenderit sed vero! Accusamus
-                    accusantium eveniet id quos repellat?
-                    Alias at cumque debitis dolor earum facere impedit inventore iure, laborum nam nulla obcaecati odit
-                    perspiciatis porro provident quae quasi quibusdam quis reiciendis repellendus sit tempora ut,
-                    veritatis vitae voluptas.
-                    Assumenda cumque magnam quo quos repellendus tenetur voluptas voluptatem. Aut blanditiis
-                    consequatur dolorem doloremque dolorum eaque est, ipsum, maiores necessitatibus officia officiis
-                    pariatur perspiciatis quis quo repudiandae sit totam voluptatem!
-                </div>
-            </div>
-            <div class="unordered_list">
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, exercitationem.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates!</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, excepturi.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, saepe!</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, harum?</li>
-                </ul>
-            </div>
         </div>
     </main>
     <footer>
         <div class="footer">
             <p>
-                © Athet, Inc.,2020<br>
+                © Athet, 2020<br>
                 All rights reserved.
             </p>
             <div class="links">
@@ -289,6 +184,36 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <div class="popup" id="popup">
+        <div class="content">
+            <a href="#nav" id="close_btn" class="icon">&#9587</a>
+            <div class="wrapper">
+                <h1>Payment information</h1>
+                <div class="popup_form">
+                    <form class="form" id="form">
+                        <div class="main_form">
+                            <div class="field">
+                                <input placeholder="Card number" type="text" name="number" class="card_number" required/>
+                            </div>
+
+                            <div class="field">
+                                <input placeholder="MM/YY" type="text" name="date" class="date" required/>
+                            </div>
+                            <div class="field">
+                                <input placeholder="CVV" type="text" name="cvv" class="cvv" required/>
+                            </div>
+                            <div class="button">
+                                <button type="submit" class="submit_btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="error"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/validation.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>

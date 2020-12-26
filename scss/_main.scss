@@ -7,7 +7,6 @@
 }
 
 @mixin button_style($color) {
-  color: $color;
   color: white;
   user-select: none;
   background: $color;
@@ -88,6 +87,7 @@ header {
   width: 100%;
   background: #000;
   position: fixed;
+  z-index: 1;
 
   .wrapper {
     display: flex;
@@ -130,24 +130,6 @@ main .container {
   padding: 0 2.5%;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.buy {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.1);
-  
-  .content {
-    display: block;
-    background: #fff;
-    margin: 2.5%;
-    width: 95%;
-    height: 95%;
-    padding: auto;
-    border-radius: 2.5%;
-  }
 }
 
 /* Gallery */
@@ -220,6 +202,12 @@ main .container {
 
 .about_us {
   padding-bottom: 75px;
+  opacity: 0;
+  transition: $transition_param;
+
+  &._active {
+    opacity: 1;
+  }
 
   .wrapper {
     display: flex;
@@ -304,7 +292,6 @@ main .container {
         display: flex;
         flex-direction: row;
 
-      
 
         .button {
           width: 47.5%;
@@ -338,6 +325,22 @@ main .container {
         }
       }
     }
+  }
+}
+
+.right {
+  opacity: 0;
+  transition: $transition_param;
+  &._active {
+    opacity: 1;
+  }
+}
+
+.left {
+  opacity: 0;
+  transition: $transition_param;
+  &._active {
+    opacity: 1;
   }
 }
 
@@ -376,12 +379,6 @@ main .container {
   }
 }
 
-/* Forms */
-
-.forms {
-  padding: 25px 0;
-}
-
 /* Text Block */
 
 .text_block {
@@ -399,18 +396,6 @@ main .container {
   &::-webkit-scrollbar-thumb {
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-}
-
-/* Unordered List */
-
-.unordered_list {
-  ul {
-    li {
-      list-style-type: circle;
-      padding-left: 20px;
-      margin-left: 20px;
-    }
   }
 }
 
@@ -432,10 +417,93 @@ footer {
   }
 }
 
+/* Links */
+
 .links {
   @extend .our_products;
   padding-top: 10px;
   a{
     @include link_style(map-get($button_colors, standard));
+  }
+}
+
+/* Popup */
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.1);
+  transition: $transition_param;
+  opacity: 0;
+  visibility: hidden;
+
+  #close_btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: black;
+  }
+
+  .content {
+    display: block;
+    background: #fff;
+    margin: 2.5%;
+    width: 90%;
+    height: 90%;
+    max-height: 90%;
+    border-radius: 1em;
+    position: relative;
+    .wrapper {
+      padding: 20px;
+      vertical-align: middle;
+      .popup_form {
+        .field {
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          flex-direction: column;
+          input {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 1%;
+            margin-bottom: 10px;
+            border: solid 2px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            &:focus {
+              border: solid 2px rgba(0, 0, 0, 0.3);
+            }
+          }
+        }
+        .button {
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          flex-direction: column;
+
+          button {
+            &.submit_btn {
+              margin-left: auto;
+              margin-right: auto;
+              width: 77%;
+              height: 40px;
+              background: #fff;
+              border: solid 2px rgba(0, 0, 0, 0.3);
+              border-radius: 20px;
+              transition: transition;
+
+              &:hover {
+                background: rgba(0, 0, 0, 0.3);
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
