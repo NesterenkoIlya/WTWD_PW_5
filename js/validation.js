@@ -23,6 +23,11 @@ form.addEventListener('submit', (e) => {
         messages.push("Cvv length must be 3.")
     }
 
+    if (regexp.test(cvv.value)) {
+        messages.push("CVV code must have only numbers.")
+    }
+
+
     if(messages.length>0){
         error.innerText = messages.join('\n');
     }

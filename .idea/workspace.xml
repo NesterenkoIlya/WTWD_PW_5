@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cd57bfa-690e-4bf8-a09d-a039b2057487" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
       <workItem from="1608818637282" duration="289000" />
       <workItem from="1608881255349" duration="591000" />
       <workItem from="1608890188460" duration="24565000" />
-      <workItem from="1608992956475" duration="9833000" />
+      <workItem from="1608992956475" duration="10417000" />
     </task>
     <servers />
   </component>
